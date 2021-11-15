@@ -1,114 +1,34 @@
 <!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <meta property="og:title" content="디시 갤로그 클리너" />
-    <meta name="description" content="Clean your gallog! 당신의 갤로그를 지워보세요!">
-    <meta property="og:description" content="Clean your gallog! 당신의 갤로그를 지워보세요!" />
-    <meta property="og:locale" content="ko" />
-    <link rel="canonical" href="https://emptycan1010.github.io/gallogcleaner-ahk/" />
-    <meta property="og:url" content="https://emptycan1010.github.io/gallogcleaner-ahk/" />
-    <meta property="og:site_name" content="디시 갤로그 클리너" />
-    <meta name="twitter:card" content="summary" />
-    <meta property="twitter:title" content="디시 갤로그 클리너" />
-    <meta name="google-site-verification" content="BM9Arl7GgdHaVoLB8DiBEtGO89GpsFExRNYvhNn0L1c" />
-    <meta name="naver-site-verification" content="18207c42162c1bccdbaa6fbd3fa4559c91422cd5" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XW0LMYQQG8"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-XW0LMYQQG8');
-    </script>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
+    <title>Personal Portfolio Website</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>디시 갤로그 클리너</title>
-<meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="디시 갤로그 클리너" />
-<meta property="og:locale" content="ko" />
-<script type="application/ld+json">
-{"headline":"오토핫키 갤로그 클리너","url":"https://emptycan1010.github.io/gallogcleaner-ahk/","@type":"WebSite","name":"gallogcleaner-ahk","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+    <div class="hero">
+        <nav>
+            <img src="./img/logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#" class="btn">Buy Now</a>
+        </nav>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="/gallogcleaner-ahk/assets/css/style.css?v=822bd54607999ce3ecebe383fc0fd4bc9639cd4b">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">갤로그 클리너</h1>
-      <h2 class="project-tagline"></h2>
-      
-        <a href="https://github.com/emptycan1010/gallogcleaner-ahk" class="btn">View on GitHub</a>
-        <a href="https://github.com/emptycan1010/gallogcleaner-ahk/releases" class="btn">파일 다운로드</a>
-      
-      
-    </section>
+        <div class="content">
+            <span class="title">Freelance Web Developer</span>
+            <h1>Hello, I’m <span>Fatima</span></h1>
+            <p>I’m working on a professional, visually sophisticated and technologically proficient, responsive and multi-functional React Template Imroz.</p>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+    </div>
 
-    <section class="main-content">
-      <meta name="google-site-verification" content="BM9Arl7GgdHaVoLB8DiBEtGO89GpsFExRNYvhNn0L1c" />
-
-<h1 id="갤로그-클리너">갤로그 클리너</h1>
-<p><img src="https://user-images.githubusercontent.com/85441644/123372601-d6d94d80-d5be-11eb-80aa-c150a9117a59.png" alt="logo" /></p>
-<h1 id="초기-설정">초기 설정</h1>
-
-<p>Selenium Basic, Chrome Webdriver, Noto Sans CJK KR폰트가 필요합니다.</p>
-
-<p><a href="https://github.com/SeleniumHQ/selenium/releases/tag/selenium-3.141.59">Selenium Basic</a></p>
-
-<p><a href="https://chromedriver.chromium.org/downloads">Webdriver</a></p>
-
-<ol>
-  <li>Selenium Basic을 설치해주세요.</li>
-  <li>현재 자신의 크롬 버전에 맞는 Webdriver를 다운받아주세요. (크롬일경우 주소창에 chrome://version 을 입력하여 버전 확인)</li>
-  <li>다운받은 Webdriver를 C:\Users\유저네임\AppData\Local\SeleniumBasic에 넣어주세요. ( 이때 유저네임 은 한국어일경우 로컬디스크 C드라이브 / 사용자 / 사용자이름입니다. )</li>
-</ol>
-
-<h1 id="갤러리-선택방법">갤러리 선택방법</h1>
-<p>현재 개발중인 버전이라 갤러리를 일반적인 클리너처럼 선택할수 없습니다.
-https://gallog.dcinside.com/유저아이디/posting 에 들어가서 
-갤러리 선택부분을 클릭해주세요.</p>
-
-<p>이후 자신의 원하는 갤러리를 우클릭한후 검사를 눌러주세요.</p>
-
-<p><img src="https://user-images.githubusercontent.com/85441644/123371750-464e3d80-d5bd-11eb-96f2-4b6e1fcb7e44.png" alt="image" /></p>
-
-<p>누르신후</p>
-
-<p><img src="https://user-images.githubusercontent.com/85441644/123372006-bb217780-d5bd-11eb-80c6-4f291be7e5c5.png" alt="image" /></p>
-
-<p>이런 화면이 뜨게된다면 그 줄을 우클릭한후
-Copy –&gt; Copy Full xpath를 눌러주세요.</p>
-
-<p><img src="https://user-images.githubusercontent.com/85441644/123372084-ea37e900-d5bd-11eb-904f-f2118cb8aa4a.png" alt="image" /></p>
-
-<p>해당 복사된 내용을 가지고</p>
-
-<p><img src="https://user-images.githubusercontent.com/85441644/123374905-d5aa1f80-d5c2-11eb-841b-99390a3460ec.png" alt="image" /></p>
-
-<p>로그인 후 해당 부분에 입력후 Select버튼을 눌러주시면 됩니다.</p>
-
-<h1 id="버그">버그</h1>
-<p>신규기기에서 로그인시 비밀번호를 변경하라는 창이 뜰 경우에 로그인을 실패하게됩니다.</p>
-
-<p>OTP를 해제해주셔야합니다.</p>
-
-<p>글을 200개이상 연속삭제할경우 캡챠가 걸려  맛이갑니다. 직접 갤로그에 들어가 캡챠를 풀어주셔야합니다.</p>
-
-<h1 id="버그신고 & 문의">버그신고 & 문의</h1>
-<p><a href="https://discord.gg/T7kcJQtAG5">Discord</a></p>
-
-
-      <footer class="site-footer">
-        
-          <span class="site-footer-owner"><a href="https://github.com/emptycan1010/gallogcleaner-ahk">gallogcleaner-ahk</a> is maintained by <a href="https://github.com/emptycan1010">emptycan1010</a>.</span>
-        
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
-    </section>
-
-    
-  </body>
+</body>
 </html>
